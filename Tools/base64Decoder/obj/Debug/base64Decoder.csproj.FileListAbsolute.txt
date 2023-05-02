@@ -1,0 +1,12 @@
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\bin\Debug\base64Decoder.exe.config
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\bin\Debug\base64Decoder.exe
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\bin\Debug\base64Decoder.pdb
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.csproj.AssemblyReference.cache
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.csproj.SuggestedBindingRedirects.cache
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.Form1.resources
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.Properties.Resources.resources
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.csproj.GenerateResource.cache
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.csproj.CoreCompileInputs.cache
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.exe
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.pdb
+C:\Users\luis.rigueira\Desktop\Windows Applications\Base64Decoder\base64Decoder\obj\Debug\base64Decoder.AboutForm.resources
