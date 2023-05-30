@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gvU1Qg17DNRbzvjBRySUhNYLiqjeyNIJ4cUXXaeiREGMKUkU0Nfqh7vEYdJJFnQ9MJJosmXi5gPu4f/7zIR+hg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diogo.formosinho\\source\\repos\\JSONValidator\\JSONValidator\\JSONValidator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diogo.formosinho\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
