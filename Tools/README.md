@@ -7,6 +7,10 @@ Windows tool that allows you to decode your data. This is a handy tool if you ha
 ## JSON Validator Tool
 JSON Validator Tool is a lightweight Windows tool that allows you to validate and reformat a JSON message.
 
+## Create a sample JSON document from a JSON Schema Tool
+This tool allows you to create a JSON Document based on the JSON Schema provide.
+
+
 # About Us
 **Sandro Pereira** | [DevScope](http://www.devscope.net/) | MVP & MCTS BizTalk Server 2010 | [https://blog.sandro-pereira.com/](https://blog.sandro-pereira.com/) | [@sandro_asp](https://twitter.com/sandro_asp)
 

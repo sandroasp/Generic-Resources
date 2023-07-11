@@ -1,0 +1,8 @@
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\SchemaToJsonConverter.exe
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\SchemaToJsonConverter.dll
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\SchemaToJsonConverter.deps.json
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\SchemaToJsonConverter.runtimeconfig.json
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\SchemaToJsonConverter.pdb
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\Namotion.Reflection.dll
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\Newtonsoft.Json.dll
+C:\Users\luis.rigueira\Desktop\JsontoSchemaandviceversa\NJsonSchema.dll
