@@ -10,6 +10,9 @@ JSON Validator Tool is a lightweight Windows tool that allows you to validate an
 ## Create a sample JSON document from a JSON Schema Tool
 This tool allows you to create a JSON Document based on the JSON Schema provide.
 
+## JSON Document to JSON Schema Converter Tool
+This tool allows you to generate a JSON Schema based on the sample JSON Document provide.
+
 
 # About Us
 **Sandro Pereira** | [DevScope](http://www.devscope.net/) | MVP & MCTS BizTalk Server 2010 | [https://blog.sandro-pereira.com/](https://blog.sandro-pereira.com/) | [@sandro_asp](https://twitter.com/sandro_asp)

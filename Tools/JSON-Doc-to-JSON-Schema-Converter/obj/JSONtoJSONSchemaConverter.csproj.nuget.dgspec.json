@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\spereira\\Downloads\\JSONtoJSONSchemaConverter\\JSONtoJSONSchemaConverter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\spereira\\Downloads\\JSONtoJSONSchemaConverter\\JSONtoJSONSchemaConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spereira\\Downloads\\JSONtoJSONSchemaConverter\\JSONtoJSONSchemaConverter.csproj",
+        "projectName": "JSONtoJSONSchemaConverter",
+        "projectPath": "C:\\Users\\spereira\\Downloads\\JSONtoJSONSchemaConverter\\JSONtoJSONSchemaConverter.csproj",
+        "packagesPath": "C:\\Users\\spereira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spereira\\Downloads\\JSONtoJSONSchemaConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sgs-glpcoe-projects/de86384b-78a6-4c3e-992f-fb355ceab1c3/_packaging/logger-lib-net/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "NJsonSchema": {
+              "target": "Package",
+              "version": "[10.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

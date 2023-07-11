@@ -1,0 +1,46 @@
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.exe
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.deps.json
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.runtimeconfig.json
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.pdb
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.AssemblyReference.cache
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.GenerateResource.cache
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AssemblyInfoInputs.cache
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AssemblyInfo.cs
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.CoreCompileInputs.cache
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.CopyComplete
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\refint\JSONtoJSONSchemaConverter.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.pdb
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.genruntimeconfig.cache
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\ref\JSONtoJSONSchemaConverter.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\Namotion.Reflection.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\NJsonSchema.dll
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AboutForm.resources
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.Properties.Resources.resources
+D:\Luis Rigueira\Windows Applications\JSON to JSON Schema Converter\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.JsontoJsonSchema.resources
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.exe
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.deps.json
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.runtimeconfig.json
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\JSONtoJSONSchemaConverter.pdb
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\Namotion.Reflection.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\bin\Debug\net6.0-windows\NJsonSchema.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.AssemblyReference.cache
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AboutForm.resources
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.JsontoJsonSchema.resources
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.Properties.Resources.resources
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.GenerateResource.cache
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AssemblyInfoInputs.cache
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.AssemblyInfo.cs
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.CoreCompileInputs.cache
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.csproj.CopyComplete
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\refint\JSONtoJSONSchemaConverter.dll
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.pdb
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\JSONtoJSONSchemaConverter.genruntimeconfig.cache
+C:\Users\spereira\Downloads\JSONtoJSONSchemaConverter\obj\Debug\net6.0-windows\ref\JSONtoJSONSchemaConverter.dll
