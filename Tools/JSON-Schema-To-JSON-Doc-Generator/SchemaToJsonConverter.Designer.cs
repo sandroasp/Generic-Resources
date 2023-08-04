@@ -29,165 +29,197 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SchemaToJsonConverter));
-            ConvertButton = new Button();
-            CopyJsonButton = new Button();
-            SaveSchemaButton = new Button();
-            CopySchemaButton = new Button();
-            schemaTextBox = new RichTextBox();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            jsonTextBox = new RichTextBox();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            menuStrip1 = new MenuStrip();
-            toolStripMenuItem1 = new ToolStripMenuItem();
-            tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            menuStrip1.SuspendLayout();
-            SuspendLayout();
+            this.ConvertButton = new System.Windows.Forms.Button();
+            this.CopyJsonButton = new System.Windows.Forms.Button();
+            this.SaveSchemaButton = new System.Windows.Forms.Button();
+            this.CopySchemaButton = new System.Windows.Forms.Button();
+            this.schemaTextBox = new System.Windows.Forms.RichTextBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.jsonTextBox = new System.Windows.Forms.RichTextBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.LoadSchemaButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // ConvertButton
             // 
-            ConvertButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            ConvertButton.BackColor = SystemColors.GradientActiveCaption;
-            ConvertButton.Location = new Point(3, 3);
-            ConvertButton.Name = "ConvertButton";
-            ConvertButton.Size = new Size(202, 65);
-            ConvertButton.TabIndex = 0;
-            ConvertButton.Text = "Generate sample JSON document from a JSON Schema";
-            ConvertButton.UseVisualStyleBackColor = false;
-            ConvertButton.Click += ConvertButton_Click;
+            this.ConvertButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ConvertButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ConvertButton.Location = new System.Drawing.Point(170, 3);
+            this.ConvertButton.Name = "ConvertButton";
+            this.ConvertButton.Size = new System.Drawing.Size(161, 65);
+            this.ConvertButton.TabIndex = 0;
+            this.ConvertButton.Text = "Generate sample JSON document from a JSON Schema";
+            this.ConvertButton.UseVisualStyleBackColor = false;
+            this.ConvertButton.Click += new System.EventHandler(this.ConvertButton_Click_1);
             // 
             // CopyJsonButton
             // 
-            CopyJsonButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            CopyJsonButton.BackColor = SystemColors.GradientInactiveCaption;
-            CopyJsonButton.Location = new Point(211, 3);
-            CopyJsonButton.Name = "CopyJsonButton";
-            CopyJsonButton.RightToLeft = RightToLeft.No;
-            CopyJsonButton.Size = new Size(202, 65);
-            CopyJsonButton.TabIndex = 1;
-            CopyJsonButton.Text = "Copy JSON Schema to Clipboard";
-            CopyJsonButton.UseVisualStyleBackColor = false;
-            CopyJsonButton.Click += CopyJsonButton_Click;
+            this.CopyJsonButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CopyJsonButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.CopyJsonButton.Location = new System.Drawing.Point(337, 3);
+            this.CopyJsonButton.Name = "CopyJsonButton";
+            this.CopyJsonButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.CopyJsonButton.Size = new System.Drawing.Size(161, 65);
+            this.CopyJsonButton.TabIndex = 1;
+            this.CopyJsonButton.Text = "Copy JSON Schema to Clipboard";
+            this.CopyJsonButton.UseVisualStyleBackColor = false;
+            this.CopyJsonButton.Click += new System.EventHandler(this.CopyJsonButton_Click_1);
             // 
             // SaveSchemaButton
             // 
-            SaveSchemaButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            SaveSchemaButton.BackColor = SystemColors.GradientActiveCaption;
-            SaveSchemaButton.Location = new Point(419, 3);
-            SaveSchemaButton.Name = "SaveSchemaButton";
-            SaveSchemaButton.Size = new Size(202, 65);
-            SaveSchemaButton.TabIndex = 2;
-            SaveSchemaButton.Text = "Save JSON Document";
-            SaveSchemaButton.UseVisualStyleBackColor = false;
-            SaveSchemaButton.Click += SaveSchemaButton_Click;
+            this.SaveSchemaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SaveSchemaButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.SaveSchemaButton.Location = new System.Drawing.Point(504, 3);
+            this.SaveSchemaButton.Name = "SaveSchemaButton";
+            this.SaveSchemaButton.Size = new System.Drawing.Size(161, 65);
+            this.SaveSchemaButton.TabIndex = 2;
+            this.SaveSchemaButton.Text = "Save JSON Document";
+            this.SaveSchemaButton.UseVisualStyleBackColor = false;
+            this.SaveSchemaButton.Click += new System.EventHandler(this.SaveSchemaButton_Click_1);
             // 
             // CopySchemaButton
             // 
-            CopySchemaButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            CopySchemaButton.BackColor = SystemColors.GradientInactiveCaption;
-            CopySchemaButton.Location = new Point(627, 3);
-            CopySchemaButton.Name = "CopySchemaButton";
-            CopySchemaButton.Size = new Size(203, 65);
-            CopySchemaButton.TabIndex = 3;
-            CopySchemaButton.Text = "Copy JSON Document to Clipboard";
-            CopySchemaButton.UseVisualStyleBackColor = false;
-            CopySchemaButton.Click += CopySchemaButton_Click;
+            this.CopySchemaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CopySchemaButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.CopySchemaButton.Location = new System.Drawing.Point(671, 3);
+            this.CopySchemaButton.Name = "CopySchemaButton";
+            this.CopySchemaButton.Size = new System.Drawing.Size(164, 65);
+            this.CopySchemaButton.TabIndex = 3;
+            this.CopySchemaButton.Text = "Copy JSON Document to Clipboard";
+            this.CopySchemaButton.UseVisualStyleBackColor = false;
+            this.CopySchemaButton.Click += new System.EventHandler(this.CopySchemaButton_Click_1);
             // 
             // schemaTextBox
             // 
-            schemaTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            schemaTextBox.Location = new Point(3, 3);
-            schemaTextBox.Name = "schemaTextBox";
-            schemaTextBox.Size = new Size(398, 396);
-            schemaTextBox.TabIndex = 4;
-            schemaTextBox.Text = "";
+            this.schemaTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.schemaTextBox.Location = new System.Drawing.Point(3, 3);
+            this.schemaTextBox.Name = "schemaTextBox";
+            this.schemaTextBox.Size = new System.Drawing.Size(401, 431);
+            this.schemaTextBox.TabIndex = 4;
+            this.schemaTextBox.Text = "";
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            tableLayoutPanel1.BackColor = SystemColors.InactiveCaption;
-            tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(schemaTextBox, 0, 0);
-            tableLayoutPanel1.Controls.Add(jsonTextBox, 1, 0);
-            tableLayoutPanel1.Location = new Point(12, 101);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 1;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(809, 402);
-            tableLayoutPanel1.TabIndex = 6;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.schemaTextBox, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.jsonTextBox, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 101);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(814, 437);
+            this.tableLayoutPanel1.TabIndex = 6;
             // 
             // jsonTextBox
             // 
-            jsonTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            jsonTextBox.Location = new Point(407, 3);
-            jsonTextBox.Name = "jsonTextBox";
-            jsonTextBox.Size = new Size(399, 396);
-            jsonTextBox.TabIndex = 5;
-            jsonTextBox.Text = "";
+            this.jsonTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.jsonTextBox.Location = new System.Drawing.Point(410, 3);
+            this.jsonTextBox.Name = "jsonTextBox";
+            this.jsonTextBox.Size = new System.Drawing.Size(401, 431);
+            this.jsonTextBox.TabIndex = 5;
+            this.jsonTextBox.Text = "";
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            tableLayoutPanel2.BackColor = SystemColors.InactiveCaption;
-            tableLayoutPanel2.ColumnCount = 4;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.Controls.Add(ConvertButton, 0, 0);
-            tableLayoutPanel2.Controls.Add(CopyJsonButton, 1, 0);
-            tableLayoutPanel2.Controls.Add(CopySchemaButton, 3, 0);
-            tableLayoutPanel2.Controls.Add(SaveSchemaButton, 2, 0);
-            tableLayoutPanel2.Dock = DockStyle.Top;
-            tableLayoutPanel2.Location = new Point(0, 24);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(833, 71);
-            tableLayoutPanel2.TabIndex = 7;
+            this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.tableLayoutPanel2.ColumnCount = 5;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.Controls.Add(this.CopySchemaButton, 4, 0);
+            this.tableLayoutPanel2.Controls.Add(this.SaveSchemaButton, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.CopyJsonButton, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.ConvertButton, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.LoadSchemaButton, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 24);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(838, 71);
+            this.tableLayoutPanel2.TabIndex = 7;
+            // 
+            // LoadSchemaButton
+            // 
+            this.LoadSchemaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LoadSchemaButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.LoadSchemaButton.Location = new System.Drawing.Point(3, 3);
+            this.LoadSchemaButton.Name = "LoadSchemaButton";
+            this.LoadSchemaButton.Size = new System.Drawing.Size(161, 65);
+            this.LoadSchemaButton.TabIndex = 4;
+            this.LoadSchemaButton.Text = "Load Schema";
+            this.LoadSchemaButton.UseVisualStyleBackColor = false;
+            this.LoadSchemaButton.Click += new System.EventHandler(this.LoadSchemaButton_Click);
             // 
             // menuStrip1
             // 
-            menuStrip1.BackColor = SystemColors.GradientInactiveCaption;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1 });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(833, 24);
-            menuStrip1.TabIndex = 8;
-            menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(838, 24);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
-            toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(52, 20);
-            toolStripMenuItem1.Text = "About";
-            toolStripMenuItem1.Click += toolStripMenuItem1_Click;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(52, 20);
+            this.toolStripMenuItem1.Text = "About";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click_1);
             // 
             // SchemaToJsonConverter
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(833, 515);
-            Controls.Add(tableLayoutPanel2);
-            Controls.Add(tableLayoutPanel1);
-            Controls.Add(menuStrip1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MainMenuStrip = menuStrip1;
-            MaximumSize = new Size(1083, 773);
-            MinimumSize = new Size(323, 249);
-            Name = "SchemaToJsonConverter";
-            Text = "Create a sample JSON document from a JSON Schema";
-            Load += Form1_Load;
-            tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(838, 550);
+            this.Controls.Add(this.tableLayoutPanel2);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(1083, 773);
+            this.MinimumSize = new System.Drawing.Size(323, 249);
+            this.Name = "SchemaToJsonConverter";
+            this.Text = "Create a sample JSON document from a JSON Schema";
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -202,5 +234,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem toolStripMenuItem1;
         private RichTextBox jsonTextBox;
+        private Button LoadSchemaButton;
     }
 }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spereira\\Downloads\\SchemaToJsonConverter\\SchemaToJsonConverter.csproj": {}
+    "D:\\Luis Rigueira\\Windows Applications\\Sandro version\\JSON-Schema-To-JSON-Doc-Generator\\SchemaToJsonConverter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spereira\\Downloads\\SchemaToJsonConverter\\SchemaToJsonConverter.csproj": {
+    "D:\\Luis Rigueira\\Windows Applications\\Sandro version\\JSON-Schema-To-JSON-Doc-Generator\\SchemaToJsonConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spereira\\Downloads\\SchemaToJsonConverter\\SchemaToJsonConverter.csproj",
+        "projectUniqueName": "D:\\Luis Rigueira\\Windows Applications\\Sandro version\\JSON-Schema-To-JSON-Doc-Generator\\SchemaToJsonConverter.csproj",
         "projectName": "SchemaToJsonConverter",
-        "projectPath": "C:\\Users\\spereira\\Downloads\\SchemaToJsonConverter\\SchemaToJsonConverter.csproj",
-        "packagesPath": "C:\\Users\\spereira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spereira\\Downloads\\SchemaToJsonConverter\\obj\\",
+        "projectPath": "D:\\Luis Rigueira\\Windows Applications\\Sandro version\\JSON-Schema-To-JSON-Doc-Generator\\SchemaToJsonConverter.csproj",
+        "packagesPath": "C:\\Users\\luis.rigueira\\.nuget\\packages\\",
+        "outputPath": "D:\\Luis Rigueira\\Windows Applications\\Sandro version\\JSON-Schema-To-JSON-Doc-Generator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\spereira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luis.rigueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/sgs-glpcoe-projects/de86384b-78a6-4c3e-992f-fb355ceab1c3/_packaging/logger-lib-net/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -69,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -16,7 +16,27 @@ namespace JSONtoJSONSchemaConverter
 
         }
 
-        private void ConvertButton_Click(object sender, EventArgs e)
+        private void LoadSchemaButton_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "JSON Files|*.json";
+            openFileDialog.Title = "Load JSON Schema";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    string schema = System.IO.File.ReadAllText(openFileDialog.FileName);
+                    schemaTextBox.Text = schema;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading schema: " + ex.Message);
+                }
+            }
+        }
+
+        private void ConvertButton_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -32,13 +52,13 @@ namespace JSONtoJSONSchemaConverter
             }
         }
 
-        private void CopyJsonButton_Click(object sender, EventArgs e)
+        private void CopyJsonButton_Click_1(object sender, EventArgs e)
         {
             Clipboard.SetText(schemaTextBox.Text);
             MessageBox.Show("Schema copied to clipboard.");
         }
 
-        private void SaveSchemaButton_Click(object sender, EventArgs e)
+        private void SaveSchemaButton_Click_1(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "JSON Files|*.json";
@@ -52,14 +72,14 @@ namespace JSONtoJSONSchemaConverter
             }
         }
 
-
-        private void CopySchemaButton_Click(object sender, EventArgs e)
+        private void CopySchemaButton_Click_1(object sender, EventArgs e)
         {
+
             Clipboard.SetText(jsonTextBox.Text);
             MessageBox.Show("JSON copied to clipboard.");
         }
 
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        private void toolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             AboutForm aboutForm = new AboutForm();
             aboutForm.ShowDialog(this);

@@ -44,3 +44,26 @@ C:\Users\spereira\Downloads\SchemaToJsonConverter\obj\Release\net6.0-windows\ref
 C:\Users\spereira\Downloads\SchemaToJsonConverter\obj\Release\net6.0-windows\SchemaToJsonConverter.pdb
 C:\Users\spereira\Downloads\SchemaToJsonConverter\obj\Release\net6.0-windows\SchemaToJsonConverter.genruntimeconfig.cache
 C:\Users\spereira\Downloads\SchemaToJsonConverter\obj\Release\net6.0-windows\ref\SchemaToJsonConverter.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.exe
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.deps.json
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.runtimeconfig.json
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.pdb
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\Namotion.Reflection.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\NJsonSchema.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.AssemblyReference.cache
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\JSONtoJSONSchemaConverter.AboutForm.resources
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.Properties.Resources.resources
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\JSONtoJSONSchemaConverter.SchemaToJsonConverter.resources
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.GenerateResource.cache
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.AssemblyInfoInputs.cache
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.AssemblyInfo.cs
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.CoreCompileInputs.cache
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.CopyComplete
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\refint\SchemaToJsonConverter.dll
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.pdb
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.genruntimeconfig.cache
+D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\ref\SchemaToJsonConverter.dll
