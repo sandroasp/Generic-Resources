@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchemaToJsonConverter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfb142b0e2cacce671f645ac69567289c01ad17a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchemaToJsonConverter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchemaToJsonConverter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

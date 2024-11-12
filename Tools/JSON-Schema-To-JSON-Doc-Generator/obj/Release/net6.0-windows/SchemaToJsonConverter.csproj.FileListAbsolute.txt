@@ -67,3 +67,27 @@ D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Gen
 D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.pdb
 D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.genruntimeconfig.cache
 D:\Luis Rigueira\Windows Applications\Sandro version\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\ref\SchemaToJsonConverter.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.exe
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.deps.json
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.runtimeconfig.json
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\SchemaToJsonConverter.pdb
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\Namotion.Reflection.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\Newtonsoft.Json.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\bin\Release\net6.0-windows\NJsonSchema.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.AssemblyReference.cache
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\JSONtoJSONSchemaConverter.AboutForm.resources
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.Properties.Resources.resources
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\JSONtoJSONSchemaConverter.SchemaToJsonConverter.resources
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.GenerateResource.cache
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.AssemblyInfoInputs.cache
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.AssemblyInfo.cs
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.CoreCompileInputs.cache
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.sourcelink.json
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.csproj.CopyComplete
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\refint\SchemaToJsonConverter.dll
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.pdb
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\SchemaToJsonConverter.genruntimeconfig.cache
+D:\GitHub\Generic-Resources\Tools\JSON-Schema-To-JSON-Doc-Generator\obj\Release\net6.0-windows\ref\SchemaToJsonConverter.dll
