@@ -1,0 +1,77 @@
+trigger:
+  paths:
+    include:
+    - NordexWinApp/*
+
+pool:
+  vmImage: 'windows-latest'  # Use a Windows agent to build .NET Framework applications
+
+variables:
+  buildConfiguration: 'Release'
+  artifactName: 'nordexapp.zip'
+  fileSharePath: '\\cicdpocwinappfileshare.file.core.windows.net\winappfileshare'  # Replace with your actual file share path
+  storageAccountName: 'cicdpocwinappstorage'  # Replace with your storage account name
+  containerName: 'downloads'            # Replace with your blob container name
+
+steps:
+- script: |
+    echo "Build Configuration: $(buildConfiguration)"
+    echo "Binaries Directory: $(Build.BinariesDirectory)"
+    echo "Work Dir: $(system.defaultworkingdirectory)"
+    echo "Art Staging Directory: $(Build.ArtifactStagingDirectory)"
+  displayName: 'Print Variables'
+
+- task: NuGetToolInstaller@1
+  displayName: 'Use NuGet 5.x'
+
+- task: NuGetCommand@2
+  displayName: 'Restore NuGet packages'
+  inputs:
+    restoreSolution: '**/*.sln'
+
+- task: VSBuild@1
+  displayName: 'Build solution'
+  inputs:
+    solution: '**/*.sln'
+    msbuildArgs: '/p:Configuration=Release'
+    platform: 'Any CPU'
+    configuration: 'Release'
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to Staging Directory'
+  inputs:
+    SourceFolder: '$(system.defaultworkingdirectory)\NordexWinApp\NordexWinApp\bin\$(buildConfiguration)'
+    Contents: '**\*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+- task: ArchiveFiles@2
+  displayName: 'Zip build artifacts'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/zip/$(artifactName)'
+
+- task: WindowsMachineFileCopy@2
+  displayName: 'Copy Files to File Share'
+  inputs:
+    MachineNames: 'cicdpocwinappfileshare.file.core.windows.net'
+    SourcePath: '$(Build.ArtifactStagingDirectory)/zip/$(artifactName)'
+    TargetPath: '$(fileSharePath)'
+    CleanTargetBeforeCopy: true
+    # Provide credentials if required by your file share for authentication
+    AdminUserName: 'localhost\cicdpocwinappfileshare'
+    AdminPassword: '$(FileshareAdminPassword)'
+
+- task: AzureCLI@2
+  displayName: 'Upload to Azure Blob Storage'
+  inputs:
+    azureSubscription: 'WinAppAzureConnection' # Service connection name
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az storage blob upload-batch \
+        --account-name $(storageAccountName) \
+        --destination $(containerName) \
+        --source '$(Build.ArtifactStagingDirectory)/zip' \
+        --pattern '*' # Upload all files
