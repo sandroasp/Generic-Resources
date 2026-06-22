@@ -1,0 +1,42 @@
+<!-- 
+	Add to shortcuts.xml in the user's AppData folder
+
+	* In Explorer: %AppData% + Enter.
+	* Find Notepad++ folder
+	* Find shortcuts.xml file
+	* IF "Macros" node exists, add the contents of the "Macro" subnode.
+	* IF "MACROS" does not exist, copy the entire node to this location:
+		<NotepadPlus>
+			<InternalCommands />
+			<Macros>
+			...
+			</Macros>
+			<UserDefinedCommands>
+				...
+			</UserDefinedCommands>
+		</NotepadPlus>
+-->
+
+
+    <Macros>
+        <Macro name="EDIUnpacking" Ctrl="no" Alt="no" Shift="no" Key="0">
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="?&apos;" />
+            <Action type="3" message="1625" wParam="0" lParam="1" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="**" />
+            <Action type="3" message="1702" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1635" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="\x27" />
+            <Action type="3" message="1625" wParam="0" lParam="1" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="\x27\x0d\x0a" />
+            <Action type="3" message="1702" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1635" sParam="" />
+            <Action type="3" message="1700" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1601" wParam="0" lParam="0" sParam="**" />
+            <Action type="3" message="1625" wParam="0" lParam="1" sParam="" />
+            <Action type="3" message="1602" wParam="0" lParam="0" sParam="?&apos;" />
+            <Action type="3" message="1702" wParam="0" lParam="0" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1635" sParam="" />
+        </Macro>
+    </Macros>
